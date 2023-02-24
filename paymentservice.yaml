@@ -41,7 +41,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: gcr.io/ordinal-torch-377801/paymentservice
+        image: gcr.io/ordinal-torch-377801/paymentservice:v1
         ports:
         - containerPort: 50051
         env:
